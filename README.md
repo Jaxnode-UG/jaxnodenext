@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/davidfekke/jaxnodenext.svg?branch=master)](https://travis-ci.org/davidfekke/jaxnodenext)
 
+![Screenshot of command line](https://raw.githubusercontent.com/davidfekke/jaxnodenext/master/jaxnodesnap.png)
+
+
+
 This tool can be used to find the next jaxnode meeting. 
 Simply type 'jnn' into your console to find out when and where the next JaxNode meeting will take place.
 
@@ -15,7 +19,17 @@ To find out when the next meeting will take place, type the following command;
 
 ```
 > jnn
-"The next JaxNode meeting will be on Jan 21, 2016 6:30 PM at Availity"
+ _____                       __  __               __             
+/\___ \                     /\ \/\ \             /\ \            
+\/__/\ \     __      __  _  \ \ `\\ \     ___    \_\ \      __   
+   _\ \ \  /'__`\   /\ \/'\  \ \ , ` \   / __`\  /'_` \   /'__`\ 
+  /\ \_\ \/\ \L\.\_ \/>  </   \ \ \`\ \ /\ \L\ \/\ \L\ \ /\  __/ 
+  \ \____/\ \__/.\_\ /\_/\_\   \ \_\ \_\\ \____/\ \___,_\\ \____\
+   \/___/  \/__/\/_/ \//\/_/    \/_/\/_/ \/___/  \/__,_ / \/____/
+                                                                 
+                                                                 
+
+The next JaxNode meeting will be on Jan 21, 2016 6:30 PM at Availity
 ```
 This tool will allow to view the help options using the following command;
 
@@ -30,6 +44,7 @@ This tool will allow to view the help options using the following command;
     -m, --map      Google Map to Meetup location
     -l, --link     Open the home page url
     -a, --address  Show the venue address
+    -e, --easteregg  Tell you friends to 'jnn -e' LoL!
 ```
 
 The `--details` option will give you the full meeting title and description.
@@ -39,6 +54,8 @@ The `--map` option will open up a Google map in your default browser of the venu
 The `--link` opens up the JaxNode.com website in your default web browser. We display the next meetup information on our home page.
 
 The `--address` displays the venue address for the next meetup.
+
+The `--easteregg` is, well, you will have to check that one out for yourself.
 
 Copyright [2015] [JaxNode]
 
